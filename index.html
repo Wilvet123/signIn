@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="signUp">
+
+        <div class="createForm">
+
+            <form id="signUpForm">
+                <div>
+                    <h1>Create an account</h1>
+                    
+                </div>
+                <div>
+                    <label for="name">Name </label>
+                    <input type="text" id="name" placeholder="eg. John Doe" >
+                    <p class=" nameError"></p>
+                </div>
+                <div>
+                    <label for="email">Email </label>
+                    <input type="email" id="email" placeholder="johndoe@email.com" >
+                    <p class=" emailError"></p>
+                </div>
+                <div>
+                    <label for="password">Password </label>
+                    <input type="password" id="password" placeholder="" >
+                    <i class="fa-regular fa-eye"></i>
+                    <p class=" passwordError"></p>
+                </div>
+                <div>
+                    <label for="confirmP">Confirm Password </label>
+                    <input type="password" id="confirmP" placeholder="" >
+                    <p class=" confirmError"></p>
+                </div>
+                <div class="button">
+                    <button type="submit" id="create">Create Account</button>
+                    
+                </div>
+
+            </form>
+            <div>
+                <p class="pSign" >Already have an account? <a id="signUp">Sign In</a></p class="pSign">
+            </div>
+        </div>
+        <div>
+            <img
+                src="https://images.pexels.com/photos/18114557/pexels-photo-18114557/free-photo-of-city-restaurant-people-hotel.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load">
+        </div>
+    </div>
+
+    <div class="signIn hidden">
+
+        <div class="createForm">
+
+            <form id="signInForm">
+                <div>
+                    <h1>Welcome back, Yvette!</h1>
+                    <h2></h2>
+                </div>
+
+                <div>
+                    <label for="email">Email </label>
+                    <input type="email" id="email" placeholder="johndoe@email.com" required>
+                </div>
+                <div>
+                    <label for="password">Password </label>
+                    <input type="password" id="password" placeholder="eg. Yvette Wilcox" required>
+                </div>
+                <a>Forgot password?</a>
+                <div class="button">
+                    <button  type="submit" id="create2">Log In</button>
+                    
+                </div>
+
+            </form>
+            <p class="pSign" >Don't have an account? <a id="signIn">Sign Up</a></p class="pSign">
+            </div>
+        <div>
+            <img
+                src="https://images.pexels.com/photos/18114557/pexels-photo-18114557/free-photo-of-city-restaurant-people-hotel.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
